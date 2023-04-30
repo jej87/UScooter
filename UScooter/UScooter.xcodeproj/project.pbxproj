@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD05242629F5AF6B008E6D75 /* AdminHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05242529F5AF6B008E6D75 /* AdminHome.swift */; };
+		DD05242829F5B68E008E6D75 /* RackFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD05242729F5B68D008E6D75 /* RackFound.swift */; };
+		DD70293C29F4B48400C1981A /* UserData.txt in Resources */ = {isa = PBXBuildFile; fileRef = DD70293B29F4B48400C1981A /* UserData.txt */; };
+		DD918C5829EB225400E41753 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C5729EB225400E41753 /* ContentView.swift */; };
+		DD918C5C29EB458E00E41753 /* HomeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C5B29EB458E00E41753 /* HomeImage.swift */; };
+		DD918C6129EB61FD00E41753 /* Bluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C6029EB61FD00E41753 /* Bluetooth.swift */; };
+		DD918C7229ECC6C300E41753 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD918C7129ECC6C300E41753 /* UIKit.framework */; };
+		DD918C7629ECD12200E41753 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C7529ECD12200E41753 /* BluetoothManager.swift */; };
+		DD918C7A29ED9B4E00E41753 /* Connecting.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C7929ED9B4E00E41753 /* Connecting.swift */; };
+		DD918C7E29EDA38900E41753 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C7D29EDA38900E41753 /* MainViewModel.swift */; };
+		DD918C8229EDA50800E41753 /* DevciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C8129EDA50800E41753 /* DevciesViewModel.swift */; };
+		DD918C8429EDA52100E41753 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C8329EDA52100E41753 /* DevicesView.swift */; };
+		DD918C8629EDA56A00E41753 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C8529EDA56A00E41753 /* DeviceViewModel.swift */; };
+		DD918C8829EDA58700E41753 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C8729EDA58700E41753 /* DeviceView.swift */; };
+		DD918C8B29EDB11700E41753 /* ConfirmLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C8A29EDB11700E41753 /* ConfirmLock.swift */; };
+		DD918C8D29EDB12400E41753 /* ConfirmUnlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C8C29EDB12400E41753 /* ConfirmUnlock.swift */; };
+		DD918C9229EEFD1800E41753 /* Set+Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD918C9129EEFD1800E41753 /* Set+Cancellable.swift */; };
+		DDC33DAD29D9EC3F00B23668 /* UScooterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DAC29D9EC3F00B23668 /* UScooterApp.swift */; };
+		DDC33DB129D9EC4000B23668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC33DB029D9EC4000B23668 /* Assets.xcassets */; };
+		DDC33DB429D9EC4000B23668 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC33DB329D9EC4000B23668 /* Preview Assets.xcassets */; };
+		DDC33DBE29D9EC4000B23668 /* UScooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DBD29D9EC4000B23668 /* UScooterTests.swift */; };
+		DDC33DC829D9EC4000B23668 /* UScooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DC729D9EC4000B23668 /* UScooterUITests.swift */; };
+		DDC33DCA29D9EC4000B23668 /* UScooterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DC929D9EC4000B23668 /* UScooterUITestsLaunchTests.swift */; };
+		DDC33DDA29E231AA00B23668 /* Bluetooth_Discovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DD929E231AA00B23668 /* Bluetooth_Discovery.swift */; };
+		DDC33DDC29E231BD00B23668 /* Bluetooth_Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DDB29E231BD00B23668 /* Bluetooth_Service.swift */; };
+		DDC33DE729E907F800B23668 /* OpeningScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DE629E907F800B23668 /* OpeningScreen.swift */; };
+		DDC33DEB29E9089F00B23668 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DEA29E9089F00B23668 /* Login.swift */; };
+		DDC33DED29E908AE00B23668 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DEC29E908AE00B23668 /* SignUp.swift */; };
+		DDC33DEF29E908CE00B23668 /* ViewProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DEE29E908CE00B23668 /* ViewProfile.swift */; };
+		DDC33DF129E908E100B23668 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DF029E908E100B23668 /* HomeScreen.swift */; };
+		DDC33DF329E9090100B23668 /* LockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DF229E9090100B23668 /* LockScreen.swift */; };
+		DDC33DF929E9094600B23668 /* Locked.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DF829E9094600B23668 /* Locked.swift */; };
+		DDC33DFB29E9095000B23668 /* Unlocked.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DFA29E9095000B23668 /* Unlocked.swift */; };
+		DDC33DFD29E9097100B23668 /* RackNearMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DFC29E9097100B23668 /* RackNearMe.swift */; };
+		DDC33DFF29EA013700B23668 /* Scooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33DFE29EA013700B23668 /* Scooter.swift */; };
+		DDC33E0329EA09AF00B23668 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33E0229EA09AF00B23668 /* View+Extension.swift */; };
+		DDC33E0A29EA0E4200B23668 /* Login_SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33E0929EA0E4200B23668 /* Login_SignUp.swift */; };
+		DDC33E0E29EA201500B23668 /* HomeScooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33E0D29EA201500B23668 /* HomeScooter.swift */; };
+		DDC33E1029EA2A3300B23668 /* LockScooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC33E0F29EA2A3300B23668 /* LockScooter.swift */; };
+		DDD2E69829F4C19B00E075EA /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD2E69729F4C19B00E075EA /* Profile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC33DBA29D9EC4000B23668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC33DA129D9EC3F00B23668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC33DA829D9EC3F00B23668;
+			remoteInfo = UScooter;
+		};
+		DDC33DC429D9EC4000B23668 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC33DA129D9EC3F00B23668 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC33DA829D9EC3F00B23668;
+			remoteInfo = UScooter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD05242529F5AF6B008E6D75 /* AdminHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHome.swift; sourceTree = "<group>"; };
+		DD05242729F5B68D008E6D75 /* RackFound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RackFound.swift; sourceTree = "<group>"; };
+		DD70293B29F4B48400C1981A /* UserData.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserData.txt; sourceTree = "<group>"; };
+		DD918C5729EB225400E41753 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DD918C5B29EB458E00E41753 /* HomeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImage.swift; sourceTree = "<group>"; };
+		DD918C6029EB61FD00E41753 /* Bluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth.swift; sourceTree = "<group>"; };
+		DD918C7129ECC6C300E41753 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD918C7529ECD12200E41753 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		DD918C7929ED9B4E00E41753 /* Connecting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connecting.swift; sourceTree = "<group>"; };
+		DD918C7D29EDA38900E41753 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		DD918C8129EDA50800E41753 /* DevciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevciesViewModel.swift; sourceTree = "<group>"; };
+		DD918C8329EDA52100E41753 /* DevicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
+		DD918C8529EDA56A00E41753 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		DD918C8729EDA58700E41753 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		DD918C8A29EDB11700E41753 /* ConfirmLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLock.swift; sourceTree = "<group>"; };
+		DD918C8C29EDB12400E41753 /* ConfirmUnlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmUnlock.swift; sourceTree = "<group>"; };
+		DD918C9029EEF81000E41753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD918C9129EEFD1800E41753 /* Set+Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Set+Cancellable.swift"; sourceTree = "<group>"; };
+		DDC33DA929D9EC3F00B23668 /* UScooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UScooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC33DAC29D9EC3F00B23668 /* UScooterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UScooterApp.swift; sourceTree = "<group>"; };
+		DDC33DB029D9EC4000B23668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC33DB329D9EC4000B23668 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDC33DB929D9EC4000B23668 /* UScooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UScooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC33DBD29D9EC4000B23668 /* UScooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UScooterTests.swift; sourceTree = "<group>"; };
+		DDC33DC329D9EC4000B23668 /* UScooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UScooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC33DC729D9EC4000B23668 /* UScooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UScooterUITests.swift; sourceTree = "<group>"; };
+		DDC33DC929D9EC4000B23668 /* UScooterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UScooterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDC33DD929E231AA00B23668 /* Bluetooth_Discovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_Discovery.swift; sourceTree = "<group>"; };
+		DDC33DDB29E231BD00B23668 /* Bluetooth_Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_Service.swift; sourceTree = "<group>"; };
+		DDC33DE629E907F800B23668 /* OpeningScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpeningScreen.swift; sourceTree = "<group>"; };
+		DDC33DEA29E9089F00B23668 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		DDC33DEC29E908AE00B23668 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		DDC33DEE29E908CE00B23668 /* ViewProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProfile.swift; sourceTree = "<group>"; };
+		DDC33DF029E908E100B23668 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		DDC33DF229E9090100B23668 /* LockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreen.swift; sourceTree = "<group>"; };
+		DDC33DF829E9094600B23668 /* Locked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locked.swift; sourceTree = "<group>"; };
+		DDC33DFA29E9095000B23668 /* Unlocked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unlocked.swift; sourceTree = "<group>"; };
+		DDC33DFC29E9097100B23668 /* RackNearMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RackNearMe.swift; sourceTree = "<group>"; };
+		DDC33DFE29EA013700B23668 /* Scooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scooter.swift; sourceTree = "<group>"; };
+		DDC33E0229EA09AF00B23668 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		DDC33E0929EA0E4200B23668 /* Login_SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_SignUp.swift; sourceTree = "<group>"; };
+		DDC33E0D29EA201500B23668 /* HomeScooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScooter.swift; sourceTree = "<group>"; };
+		DDC33E0F29EA2A3300B23668 /* LockScooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScooter.swift; sourceTree = "<group>"; };
+		DDD2E69729F4C19B00E075EA /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC33DA629D9EC3F00B23668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD918C7229ECC6C300E41753 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC33DB629D9EC4000B23668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC33DC029D9EC4000B23668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD918C5F29EB61E300E41753 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				DD918C8029EDA4E300E41753 /* DevicesView */,
+				DD918C7F29EDA4D700E41753 /* DeviceView */,
+				DD918C7529ECD12200E41753 /* BluetoothManager.swift */,
+				DD918C7D29EDA38900E41753 /* MainViewModel.swift */,
+				DD918C7929ED9B4E00E41753 /* Connecting.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		DD918C7029ECC6C200E41753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD918C7129ECC6C300E41753 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD918C7F29EDA4D700E41753 /* DeviceView */ = {
+			isa = PBXGroup;
+			children = (
+				DD918C8529EDA56A00E41753 /* DeviceViewModel.swift */,
+				DD918C8729EDA58700E41753 /* DeviceView.swift */,
+			);
+			path = DeviceView;
+			sourceTree = "<group>";
+		};
+		DD918C8029EDA4E300E41753 /* DevicesView */ = {
+			isa = PBXGroup;
+			children = (
+				DD918C8129EDA50800E41753 /* DevciesViewModel.swift */,
+				DD918C8329EDA52100E41753 /* DevicesView.swift */,
+			);
+			path = DevicesView;
+			sourceTree = "<group>";
+		};
+		DD918C8F29EDB20E00E41753 /* NotInUse */ = {
+			isa = PBXGroup;
+			children = (
+				DDC33DF229E9090100B23668 /* LockScreen.swift */,
+				DDC33DD829E2318200B23668 /* Classes */,
+			);
+			path = NotInUse;
+			sourceTree = "<group>";
+		};
+		DDC33DA029D9EC3F00B23668 = {
+			isa = PBXGroup;
+			children = (
+				DDC33DAB29D9EC3F00B23668 /* UScooter */,
+				DDC33DBC29D9EC4000B23668 /* UScooterTests */,
+				DDC33DC629D9EC4000B23668 /* UScooterUITests */,
+				DDC33DAA29D9EC3F00B23668 /* Products */,
+				DD918C7029ECC6C200E41753 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC33DAA29D9EC3F00B23668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC33DA929D9EC3F00B23668 /* UScooter.app */,
+				DDC33DB929D9EC4000B23668 /* UScooterTests.xctest */,
+				DDC33DC329D9EC4000B23668 /* UScooterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC33DAB29D9EC3F00B23668 /* UScooter */ = {
+			isa = PBXGroup;
+			children = (
+				DD918C9029EEF81000E41753 /* Info.plist */,
+				DD918C8F29EDB20E00E41753 /* NotInUse */,
+				DD918C5F29EB61E300E41753 /* Bluetooth */,
+				DDC33E1529EA321000B23668 /* RacksNearMe */,
+				DDC33E0C29EA1A3900B23668 /* LockScreens */,
+				DDC33E0B29EA19F400B23668 /* LoginSignupScreens */,
+				DDC33E0429EA09C700B23668 /* Utils */,
+				DDC33DAC29D9EC3F00B23668 /* UScooterApp.swift */,
+				DD918C5729EB225400E41753 /* ContentView.swift */,
+				DDC33DB029D9EC4000B23668 /* Assets.xcassets */,
+				DDC33DB229D9EC4000B23668 /* Preview Content */,
+			);
+			path = UScooter;
+			sourceTree = "<group>";
+		};
+		DDC33DB229D9EC4000B23668 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDC33DB329D9EC4000B23668 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDC33DBC29D9EC4000B23668 /* UScooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC33DBD29D9EC4000B23668 /* UScooterTests.swift */,
+			);
+			path = UScooterTests;
+			sourceTree = "<group>";
+		};
+		DDC33DC629D9EC4000B23668 /* UScooterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC33DC729D9EC4000B23668 /* UScooterUITests.swift */,
+				DDC33DC929D9EC4000B23668 /* UScooterUITestsLaunchTests.swift */,
+			);
+			path = UScooterUITests;
+			sourceTree = "<group>";
+		};
+		DDC33DD829E2318200B23668 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DD918C6029EB61FD00E41753 /* Bluetooth.swift */,
+				DDC33DD929E231AA00B23668 /* Bluetooth_Discovery.swift */,
+				DDC33DDB29E231BD00B23668 /* Bluetooth_Service.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DDC33E0429EA09C700B23668 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DDC33E0229EA09AF00B23668 /* View+Extension.swift */,
+				DD918C9129EEFD1800E41753 /* Set+Cancellable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DDC33E0B29EA19F400B23668 /* LoginSignupScreens */ = {
+			isa = PBXGroup;
+			children = (
+				DD70293B29F4B48400C1981A /* UserData.txt */,
+				DDC33DFE29EA013700B23668 /* Scooter.swift */,
+				DDC33E0D29EA201500B23668 /* HomeScooter.swift */,
+				DDC33DF029E908E100B23668 /* HomeScreen.swift */,
+				DDC33DEA29E9089F00B23668 /* Login.swift */,
+				DD05242529F5AF6B008E6D75 /* AdminHome.swift */,
+				DDC33DEC29E908AE00B23668 /* SignUp.swift */,
+				DDC33DE629E907F800B23668 /* OpeningScreen.swift */,
+				DDC33E0929EA0E4200B23668 /* Login_SignUp.swift */,
+				DD918C5B29EB458E00E41753 /* HomeImage.swift */,
+				DDC33DEE29E908CE00B23668 /* ViewProfile.swift */,
+				DDD2E69729F4C19B00E075EA /* Profile.swift */,
+			);
+			path = LoginSignupScreens;
+			sourceTree = "<group>";
+		};
+		DDC33E0C29EA1A3900B23668 /* LockScreens */ = {
+			isa = PBXGroup;
+			children = (
+				DDC33DF829E9094600B23668 /* Locked.swift */,
+				DDC33DFA29E9095000B23668 /* Unlocked.swift */,
+				DDC33E0F29EA2A3300B23668 /* LockScooter.swift */,
+				DD918C8A29EDB11700E41753 /* ConfirmLock.swift */,
+				DD918C8C29EDB12400E41753 /* ConfirmUnlock.swift */,
+			);
+			path = LockScreens;
+			sourceTree = "<group>";
+		};
+		DDC33E1529EA321000B23668 /* RacksNearMe */ = {
+			isa = PBXGroup;
+			children = (
+				DDC33DFC29E9097100B23668 /* RackNearMe.swift */,
+				DD05242729F5B68D008E6D75 /* RackFound.swift */,
+			);
+			path = RacksNearMe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC33DA829D9EC3F00B23668 /* UScooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC33DCD29D9EC4000B23668 /* Build configuration list for PBXNativeTarget "UScooter" */;
+			buildPhases = (
+				DDC33DA529D9EC3F00B23668 /* Sources */,
+				DDC33DA629D9EC3F00B23668 /* Frameworks */,
+				DDC33DA729D9EC3F00B23668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UScooter;
+			productName = UScooter;
+			productReference = DDC33DA929D9EC3F00B23668 /* UScooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC33DB829D9EC4000B23668 /* UScooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC33DD029D9EC4000B23668 /* Build configuration list for PBXNativeTarget "UScooterTests" */;
+			buildPhases = (
+				DDC33DB529D9EC4000B23668 /* Sources */,
+				DDC33DB629D9EC4000B23668 /* Frameworks */,
+				DDC33DB729D9EC4000B23668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC33DBB29D9EC4000B23668 /* PBXTargetDependency */,
+			);
+			name = UScooterTests;
+			productName = UScooterTests;
+			productReference = DDC33DB929D9EC4000B23668 /* UScooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDC33DC229D9EC4000B23668 /* UScooterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC33DD329D9EC4000B23668 /* Build configuration list for PBXNativeTarget "UScooterUITests" */;
+			buildPhases = (
+				DDC33DBF29D9EC4000B23668 /* Sources */,
+				DDC33DC029D9EC4000B23668 /* Frameworks */,
+				DDC33DC129D9EC4000B23668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC33DC529D9EC4000B23668 /* PBXTargetDependency */,
+			);
+			name = UScooterUITests;
+			productName = UScooterUITests;
+			productReference = DDC33DC329D9EC4000B23668 /* UScooterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC33DA129D9EC3F00B23668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DDC33DA829D9EC3F00B23668 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					DDC33DB829D9EC4000B23668 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DDC33DA829D9EC3F00B23668;
+					};
+					DDC33DC229D9EC4000B23668 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = DDC33DA829D9EC3F00B23668;
+					};
+				};
+			};
+			buildConfigurationList = DDC33DA429D9EC3F00B23668 /* Build configuration list for PBXProject "UScooter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC33DA029D9EC3F00B23668;
+			productRefGroup = DDC33DAA29D9EC3F00B23668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC33DA829D9EC3F00B23668 /* UScooter */,
+				DDC33DB829D9EC4000B23668 /* UScooterTests */,
+				DDC33DC229D9EC4000B23668 /* UScooterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC33DA729D9EC3F00B23668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD70293C29F4B48400C1981A /* UserData.txt in Resources */,
+				DDC33DB429D9EC4000B23668 /* Preview Assets.xcassets in Resources */,
+				DDC33DB129D9EC4000B23668 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC33DB729D9EC4000B23668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC33DC129D9EC4000B23668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC33DA529D9EC3F00B23668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC33DDC29E231BD00B23668 /* Bluetooth_Service.swift in Sources */,
+				DDC33DDA29E231AA00B23668 /* Bluetooth_Discovery.swift in Sources */,
+				DD918C6129EB61FD00E41753 /* Bluetooth.swift in Sources */,
+				DD918C8D29EDB12400E41753 /* ConfirmUnlock.swift in Sources */,
+				DDC33E0329EA09AF00B23668 /* View+Extension.swift in Sources */,
+				DD918C7E29EDA38900E41753 /* MainViewModel.swift in Sources */,
+				DDC33DFF29EA013700B23668 /* Scooter.swift in Sources */,
+				DDC33DF329E9090100B23668 /* LockScreen.swift in Sources */,
+				DD918C5829EB225400E41753 /* ContentView.swift in Sources */,
+				DDD2E69829F4C19B00E075EA /* Profile.swift in Sources */,
+				DDC33DF129E908E100B23668 /* HomeScreen.swift in Sources */,
+				DDC33E0E29EA201500B23668 /* HomeScooter.swift in Sources */,
+				DDC33DE729E907F800B23668 /* OpeningScreen.swift in Sources */,
+				DD918C8629EDA56A00E41753 /* DeviceViewModel.swift in Sources */,
+				DD918C7A29ED9B4E00E41753 /* Connecting.swift in Sources */,
+				DD918C7629ECD12200E41753 /* BluetoothManager.swift in Sources */,
+				DDC33DEF29E908CE00B23668 /* ViewProfile.swift in Sources */,
+				DD918C8429EDA52100E41753 /* DevicesView.swift in Sources */,
+				DD918C5C29EB458E00E41753 /* HomeImage.swift in Sources */,
+				DD918C8229EDA50800E41753 /* DevciesViewModel.swift in Sources */,
+				DD918C8B29EDB11700E41753 /* ConfirmLock.swift in Sources */,
+				DDC33DFD29E9097100B23668 /* RackNearMe.swift in Sources */,
+				DDC33DF929E9094600B23668 /* Locked.swift in Sources */,
+				DDC33E1029EA2A3300B23668 /* LockScooter.swift in Sources */,
+				DDC33E0A29EA0E4200B23668 /* Login_SignUp.swift in Sources */,
+				DDC33DAD29D9EC3F00B23668 /* UScooterApp.swift in Sources */,
+				DD918C9229EEFD1800E41753 /* Set+Cancellable.swift in Sources */,
+				DD918C8829EDA58700E41753 /* DeviceView.swift in Sources */,
+				DD05242829F5B68E008E6D75 /* RackFound.swift in Sources */,
+				DD05242629F5AF6B008E6D75 /* AdminHome.swift in Sources */,
+				DDC33DED29E908AE00B23668 /* SignUp.swift in Sources */,
+				DDC33DFB29E9095000B23668 /* Unlocked.swift in Sources */,
+				DDC33DEB29E9089F00B23668 /* Login.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC33DB529D9EC4000B23668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC33DBE29D9EC4000B23668 /* UScooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC33DBF29D9EC4000B23668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC33DCA29D9EC4000B23668 /* UScooterUITestsLaunchTests.swift in Sources */,
+				DDC33DC829D9EC4000B23668 /* UScooterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC33DBB29D9EC4000B23668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC33DA829D9EC3F00B23668 /* UScooter */;
+			targetProxy = DDC33DBA29D9EC4000B23668 /* PBXContainerItemProxy */;
+		};
+		DDC33DC529D9EC4000B23668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC33DA829D9EC3F00B23668 /* UScooter */;
+			targetProxy = DDC33DC429D9EC4000B23668 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDC33DCB29D9EC4000B23668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC33DCC29D9EC4000B23668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC33DCE29D9EC4000B23668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UScooter/Preview Content\"";
+				DEVELOPMENT_TEAM = A2C9WJM6VB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UScooter/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = UScooter;
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = UScooter;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = UScooter;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.UScooter;
+				PRODUCT_NAME = UScooter;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC33DCF29D9EC4000B23668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UScooter/Preview Content\"";
+				DEVELOPMENT_TEAM = A2C9WJM6VB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UScooter/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = UScooter;
+				INFOPLIST_KEY_NSDesktopFolderUsageDescription = UScooter;
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = UScooter;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.UScooter;
+				PRODUCT_NAME = UScooter;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDC33DD129D9EC4000B23668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.UScooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UScooter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UScooter";
+			};
+			name = Debug;
+		};
+		DDC33DD229D9EC4000B23668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.UScooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UScooter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UScooter";
+			};
+			name = Release;
+		};
+		DDC33DD429D9EC4000B23668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.UScooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UScooter;
+			};
+			name = Debug;
+		};
+		DDC33DD529D9EC4000B23668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorDesign.UScooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UScooter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC33DA429D9EC3F00B23668 /* Build configuration list for PBXProject "UScooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC33DCB29D9EC4000B23668 /* Debug */,
+				DDC33DCC29D9EC4000B23668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC33DCD29D9EC4000B23668 /* Build configuration list for PBXNativeTarget "UScooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC33DCE29D9EC4000B23668 /* Debug */,
+				DDC33DCF29D9EC4000B23668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC33DD029D9EC4000B23668 /* Build configuration list for PBXNativeTarget "UScooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC33DD129D9EC4000B23668 /* Debug */,
+				DDC33DD229D9EC4000B23668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC33DD329D9EC4000B23668 /* Build configuration list for PBXNativeTarget "UScooterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC33DD429D9EC4000B23668 /* Debug */,
+				DDC33DD529D9EC4000B23668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC33DA129D9EC3F00B23668 /* Project object */;
+}
